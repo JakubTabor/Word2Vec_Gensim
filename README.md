@@ -11,3 +11,4 @@ I gonna use gensim to change whole phrases into vectors and do some operations o
 # Then I check default number of epochs, I check corpus size and now I gonna train my model with my text review "total_examples" will be corpus size
 # I save my model, so I can my trained model in future to use it on different dataset
 # Now I check how my model perform, so I use "wv.most_similar" to check similar words to "bad" it will show me similarity in score 
+# Then I check the similarity between the two words, my model's vocabulary was built from "Amazon product reviews" so it notices the similarity based on this
