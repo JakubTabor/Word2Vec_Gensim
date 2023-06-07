@@ -8,3 +8,4 @@ I gonna use gensim to change whole phrases into vectors and do some operations o
 # Next I create gensim model and set parameters, first size of "window will be 10"  It means 10 before target word and 10 after target word
 # Then "min count will be 2, so it gonna use sentence with min two words and last will be workers at 4, so it use four cpu's to work
 # Now I specify vocabulary for my model on my "review_text" and it will show progress after every 1000 word
+# Then I check default number of epochs, I check corpus size and now I gonna train my model with my text review "total_examples" will be corpus size
